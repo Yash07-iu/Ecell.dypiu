@@ -9,6 +9,7 @@ import {
   Users,
   Camera
 } from 'lucide-react';
+import JoinInfoPopover from '../components/JoinInfoPopover';
 
 const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

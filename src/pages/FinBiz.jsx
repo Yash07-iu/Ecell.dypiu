@@ -21,11 +21,11 @@ const FinBiz = () => {
     title: 'FinBiz\'25',
     subtitle: 'Finance & Business Innovation Festival',
     date: '8th & 9th November 2025',
-    time: '36 Hour Marathon',
+    time: '24+ Hour Marathon',
     location: 'DYPIU Campus',
     participants: 'Open for All',
     category: 'Finance & Trading Competition',
-    description: 'A 36-hour flagship finance and business innovation festival designed to empower students with real-world trading experience, financial literacy, and strategic entrepreneurship skills. The event bridges the gap between market theory and hands-on finance practice.',
+    description: 'A 24-hour flagship finance and business innovation festival designed to empower students with real-world trading experience, financial literacy, and strategic entrepreneurship skills. The event bridges the gap between market theory and hands-on finance practice.',
     highlights: [
       {
         title: 'Live Market Simulation',
@@ -52,13 +52,13 @@ const FinBiz = () => {
       {
         zone: 'Zone A',
         name: 'FinBiz Trading Arena',
-        duration: '36 Hours (Day 1 – Day 2)',
+        duration: '24+ Hours (Day 1 – Day 2)',
         focus: 'Live market simulation, fund management, algo-based trading strategies',
         description: 'Immersive exposure to trading across different markets with real-time analytics and strategy formulation'
       },
       {
         zone: 'Zone B',
-        name: 'BizSpark Workshop Series',
+        name: 'ILLUMINATE Workshop Series',
         duration: '6 Hours (Day 1)',
         focus: 'Financial literacy, business model innovation, mentorship from IIT Bombay & DYPIU',
         description: 'Curated high-energy sessions for aspiring entrepreneurs who want to merge finance with innovation'
@@ -129,7 +129,10 @@ const FinBiz = () => {
               className="text-lg md:text-2xl font-bold text-center tracking-wide"
               style={{ color: '#FFFFFF' }}
             >
-              REGISTRATIONS OPEN FOR FINBIZ'25 - <a href="#registration-options" className="underline hover:text-yellow-400 transition-colors">CLICK HERE</a>
+              REGISTRATIONS OPEN FOR FINBIZ'25 - <a href="
+              
+              
+              " className="underline hover:text-yellow-400 transition-colors">CLICK HERE</a>
             </p>
             <span className="text-2xl md:text-3xl animate-bounce">🎉</span>
           </div>
@@ -213,7 +216,7 @@ const FinBiz = () => {
               Ready to Experience FinBiz'25?
             </h2>
             <p className="text-xl text-blue-100 mb-4">
-              Join us for 36 hours of immersive finance and business innovation
+              Join us for 24+ hours of immersive finance and business innovation
             </p>
             <p className="text-lg text-blue-200 font-semibold">Choose your registration option below</p>
           </div>
@@ -242,7 +245,7 @@ const FinBiz = () => {
                     <p className="text-2xl font-bold text-gray-900 mb-1">FINBIZ'25</p>
                     <p className="text-4xl font-bold text-blue-600">₹199</p>
                   </div>
-                  <p className="text-gray-600 mt-4 text-sm">Available for all participants</p>
+                  <p className="text-gray-600 mt-4 text-sm">Total = ₹598 (Available for all participants)</p>
                 </div>
                 
                 {/* Features */}
@@ -300,7 +303,8 @@ const FinBiz = () => {
                     <p className="text-2xl font-bold text-gray-900 mb-1">FINBIZ'25</p>
                     <p className="text-4xl font-bold text-blue-600">₹299</p>
                   </div>
-                  <p className="text-gray-600 mt-4 text-sm">Available for all participants</p>
+                  <p className="text-gray-600 mt-4 text-sm">Total = ₹798 
+                    (Available for all participants)</p>
                 </div>
                 
                 {/* Features */}
@@ -586,7 +590,7 @@ const FinBiz = () => {
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <p className="text-blue-600 mb-4 tracking-widest font-mono text-sm font-bold">// BIZSPARK</p>
+            <p className="text-blue-600 mb-4 tracking-widest font-mono text-sm font-bold">// ILLUMINATE</p>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-space">
               Workshop <span className="text-blue-600">Series</span>
             </h2>
