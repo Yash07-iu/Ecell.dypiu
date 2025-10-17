@@ -58,7 +58,7 @@ const FinBiz = () => {
       },
       {
         zone: 'Zone B',
-        name: 'ILLUMINATE Workshop Series',
+        name: 'Illuminate Workshop Series',
         duration: '6 Hours (Day 1)',
         focus: 'Financial literacy, business model innovation, mentorship from IIT Bombay & DYPIU',
         description: 'Curated high-energy sessions for aspiring entrepreneurs who want to merge finance with innovation'
@@ -245,7 +245,7 @@ const FinBiz = () => {
                     <p className="text-2xl font-bold text-gray-900 mb-1">FINBIZ'25</p>
                     <p className="text-4xl font-bold text-blue-600">₹199</p>
                   </div>
-                  <p className="text-gray-600 mt-4 text-sm">Total = ₹598 (Available for all participants)</p>
+                  <p className="text-gray-600 mt-4 text-sm"><span className="font-bold">Total = ₹598</span> (Available for all participants)</p>
                 </div>
                 
                 {/* Features */}
@@ -287,7 +287,7 @@ const FinBiz = () => {
                 <div className="inline-block bg-white text-blue-600 px-4 py-2 rounded-full font-bold text-sm mb-3">
                   OPEN FOR ALL
                 </div>
-                <h3 className="text-3xl font-bold mb-2">Regular</h3>
+                <h3 className="text-3xl font-bold mb-2">REGULAR</h3>
                 <p className="text-blue-100">Standard registration</p>
               </div>
               
@@ -303,8 +303,7 @@ const FinBiz = () => {
                     <p className="text-2xl font-bold text-gray-900 mb-1">FINBIZ'25</p>
                     <p className="text-4xl font-bold text-blue-600">₹299</p>
                   </div>
-                  <p className="text-gray-600 mt-4 text-sm">Total = ₹798 
-                    (Available for all participants)</p>
+                  <p className="text-gray-600 mt-4 text-sm"><span className="font-bold">Total = ₹798</span> (Available for all participants)</p>
                 </div>
                 
                 {/* Features */}
@@ -590,7 +589,7 @@ const FinBiz = () => {
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <p className="text-blue-600 mb-4 tracking-widest font-mono text-sm font-bold">// ILLUMINATE</p>
+            <p className="text-blue-600 mb-4 tracking-widest font-mono text-sm font-bold">// Illuminate</p>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-space">
               Workshop <span className="text-blue-600">Series</span>
             </h2>
@@ -609,12 +608,7 @@ const FinBiz = () => {
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300"
                 >
-                  <div className="flex items-start">
-                    <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                      <Lightbulb className="w-4 h-4 text-white" />
-                    </div>
-                    <p className="text-gray-800 font-body leading-relaxed">{workshop}</p>
-                  </div>
+                  <p className="text-gray-800 font-body leading-relaxed">{workshop}</p>
                 </motion.div>
               ))}
             </div>
