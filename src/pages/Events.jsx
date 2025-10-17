@@ -99,7 +99,7 @@ const Events = () => {
               className="text-lg md:text-2xl font-bold text-center tracking-wide"
               style={{ color: '#FFFFFF' }}
             >
-              REGISTRATIONS OPEN FOR FINBIZ'25 - <a href="/events/finbiz#registration-options" className="underline hover:text-yellow-400 transition-colors">CLICK HERE</a>
+              REGISTRATIONS OPEN FOR FINBIZ'25 POWERED BY SURYA ELECTRONICS - <a href="/events/finbiz#registration-options" className="underline hover:text-yellow-400 transition-colors">CLICK HERE</a>
             </p>
             <span className="text-2xl md:text-3xl animate-bounce">🎉</span>
           </div>
@@ -172,7 +172,7 @@ const Events = () => {
 
               {/* Content without image */}
               <div className="p-6 flex-1 flex flex-col">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">FinBiz'25</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">FinBiz'25 Powered by Surya Electronics</h3>
                 <p className="text-gray-600 mb-4 text-sm leading-relaxed flex-1">
                   An unprecedented entrepreneurship & trading conclave by E-Cell DYPIU in collaboration
                   with E-Cell IIT Bombay. Experience intensive learning and real-time competition in

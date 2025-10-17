@@ -43,6 +43,11 @@ const Home = () => {
       logo: 'https://www.lonavala.wetnjoy.in/wp-content/uploads/2024/09/WetnJoy-Water-Park-and-Amusement-Park-Logo.png',
       website: 'https://www.lonavala.wetnjoy.in/'
     },
+    {
+      name: 'Surya Electronics',
+      logo: '/logo.svg',
+      website: 'https://www.suryaelectronics.in/'
+    },
   ];
 
   return (
@@ -174,7 +179,7 @@ const Home = () => {
               className="text-lg md:text-2xl font-bold text-center tracking-wide"
               style={{ color: '#FFFFFF' }}
             >
-              REGISTRATIONS OPEN FOR FINBIZ'25 - <a href="/events/finbiz#registration-options" className="underline hover:text-yellow-400 transition-colors">CLICK HERE</a>
+              REGISTRATIONS OPEN FOR FINBIZ'25 POWERED BY SURYA ELECTRONICS - <a href="/events/finbiz#registration-options" className="underline hover:text-yellow-400 transition-colors">CLICK HERE</a>
             </p>
             <span className="text-2xl md:text-3xl animate-bounce">🎉</span>
           </div>
@@ -335,7 +340,7 @@ const Home = () => {
             </p>
           </motion.div>
 
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center gap-8 md:gap-12 flex-wrap">
             {sponsors.map((sponsor, index) => (
               <motion.div
                 key={index}

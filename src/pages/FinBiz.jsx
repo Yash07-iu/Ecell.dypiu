@@ -18,7 +18,7 @@ import { Link } from 'react-router-dom';
 
 const FinBiz = () => {
   const eventDetails = {
-    title: 'FinBiz\'25',
+    title: 'FinBiz\'25 Powered by Surya Electronics',
     subtitle: 'Finance & Business Innovation Festival',
     date: '8th & 9th November 2025',
     time: '24+ Hour Marathon',
@@ -129,7 +129,7 @@ const FinBiz = () => {
               className="text-lg md:text-2xl font-bold text-center tracking-wide"
               style={{ color: '#FFFFFF' }}
             >
-              REGISTRATIONS OPEN FOR FINBIZ'25 - <a href="
+              REGISTRATIONS OPEN FOR FINBIZ'25 POWERED BY SURYA ELECTRONICS - <a href="
               
               
               " className="underline hover:text-yellow-400 transition-colors">CLICK HERE</a>
@@ -213,127 +213,67 @@ const FinBiz = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Ready to Experience FinBiz'25?
+              Ready to Experience FinBiz'25 Powered by Surya Electronics?
             </h2>
             <p className="text-xl text-blue-100 mb-4">
               Join us for 24+ hours of immersive finance and business innovation
             </p>
-            <p className="text-lg text-blue-200 font-semibold">Choose your registration option below</p>
+            <p className="text-lg text-blue-200 font-semibold">Register below</p>
           </div>
 
-          <div id="registration-options" className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 scroll-mt-20">
-            {/* Regular Card 1 */}
-            <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
+          <div id="registration-options" className="max-w-3xl mx-auto grid grid-cols-1 gap-8 mb-12 scroll-mt-20">
+            {/* Refined card in the classic/old style */}
+            <div className="relative overflow-hidden rounded-2xl bg-white shadow-2xl border border-gray-200">
               {/* Header */}
-              <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6 text-center">
-                <div className="inline-block bg-white text-blue-600 px-4 py-2 rounded-full font-bold text-sm mb-3">
-                  OPEN FOR FIRST 25
-                </div>
-                <h3 className="text-3xl font-bold mb-2">EARLY BIRD</h3>
-                <p className="text-blue-100">Priority registration</p>
+              <div className="bg-gradient-to-r from-blue-600 to-blue-400 p-8 text-center rounded-t-2xl text-white">
+                <h3 className="text-3xl font-bold mb-1">Secure Your Spot</h3>
+                <p className="text-blue-100 text-sm md:text-base">
+                  {eventDetails.title} • {eventDetails.date} • {eventDetails.location}
+                </p>
               </div>
-              
-              {/* Body */}
-              <div className="p-8">
-                {/* Pricing */}
-                <div className="text-center mb-6">
-                  <div className="mb-4">
-                    <p className="text-2xl font-bold text-gray-900 mb-1">ILLUMINATE</p>
-                    <p className="text-4xl font-bold text-blue-600">₹399</p>
-                  </div>
-                  <div className="border-t border-gray-300 pt-4">
-                    <p className="text-2xl font-bold text-gray-900 mb-1">FINBIZ'25</p>
-                    <p className="text-4xl font-bold text-blue-600">₹199</p>
-                  </div>
-                  <p className="text-gray-600 mt-4 text-sm"><span className="font-bold">Total = ₹598</span> (Available for all participants)</p>
-                </div>
-                
-                {/* Features */}
-                <div className="mb-8">
-                  <div className="flex items-start mb-3">
-                    <span className="text-blue-500 text-xl mr-3">✓</span>
-                    <span className="text-gray-700">Full event access</span>
-                  </div>
-                  <div className="flex items-start mb-3">
-                    <span className="text-blue-500 text-xl mr-3">✓</span>
-                    <span className="text-gray-700">All meals & refreshments</span>
-                  </div>
-                  <div className="flex items-start mb-3">
-                    <span className="text-blue-500 text-xl mr-3">✓</span>
-                    <span className="text-gray-700">Event materials</span>
-                  </div>
-                  <div className="flex items-start mb-3">
-                    <span className="text-blue-500 text-xl mr-3">✓</span>
-                    <span className="text-gray-700">Certificate of participation</span>
-                  </div>
-                </div>
-                
-                {/* Button */}
-                <a
-                  href="https://forms.gle/drq8qsibpfX176CQ8"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white text-center py-4 px-6 rounded-xl font-bold text-lg hover:from-blue-700 hover:to-purple-700 transition-colors"
-                >
-                  Register Now - Early Bird
-                </a>
-              </div>
-            </div>
+              {/* Divider under header */}
+              <div className="h-px w-full bg-gray-200" />
 
-            {/* Regular Card 2 */}
-            <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
-              {/* Header */}
-              <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6 text-center">
-                <div className="inline-block bg-white text-blue-600 px-4 py-2 rounded-full font-bold text-sm mb-3">
-                  OPEN FOR ALL
+              {/* Pricing */}
+              <div className="px-10 pb-6 text-center">
+                <div className="mb-6">
+                  <p className="text-2xl font-bold text-gray-900 mb-1">ILLUMINATE</p>
+                  <p className="text-6xl font-bold text-blue-600">₹499</p>
                 </div>
-                <h3 className="text-3xl font-bold mb-2">REGULAR</h3>
-                <p className="text-blue-100">Standard registration</p>
+                <div className="border-t border-gray-200 my-4" />
+                <div className="mb-2">
+                  <p className="text-2xl font-bold text-gray-900 mb-1">FINBIZ'25</p>
+                  <p className="text-6xl font-bold text-blue-600">₹299</p>
+                </div>
+                <p className="text-gray-900 mt-4 mb-6 md:mb-8 text-2xl md:text-3xl font-extrabold tracking-tight">
+                  OFFER PRICE :₹649 FOR BOTH THE EVENTS (ENROLL NOW)
+                </p>
               </div>
-              
-              {/* Body */}
-              <div className="p-8">
-                {/* Pricing */}
-                <div className="text-center mb-6">
-                  <div className="mb-4">
-                    <p className="text-2xl font-bold text-gray-900 mb-1">ILLUMINATE</p>
-                    <p className="text-4xl font-bold text-blue-600">₹499</p>
-                  </div>
-                  <div className="border-t border-gray-300 pt-4">
-                    <p className="text-2xl font-bold text-gray-900 mb-1">FINBIZ'25</p>
-                    <p className="text-4xl font-bold text-blue-600">₹299</p>
-                  </div>
-                  <p className="text-gray-600 mt-4 text-sm"><span className="font-bold">Total = ₹798</span> (Available for all participants)</p>
-                </div>
-                
-                {/* Features */}
-                <div className="mb-8">
-                  <div className="flex items-start mb-3">
-                    <span className="text-blue-500 text-xl mr-3">✓</span>
-                    <span className="text-gray-700">Full event access</span>
-                  </div>
-                  <div className="flex items-start mb-3">
-                    <span className="text-blue-500 text-xl mr-3">✓</span>
-                    <span className="text-gray-700">All meals & refreshments</span>
-                  </div>
-                  <div className="flex items-start mb-3">
-                    <span className="text-blue-500 text-xl mr-3">✓</span>
-                    <span className="text-gray-700">Event materials</span>
-                  </div>
-                  <div className="flex items-start mb-3">
-                    <span className="text-blue-500 text-xl mr-3">✓</span>
-                    <span className="text-gray-700">Certificate of participation</span>
-                  </div>
-                </div>
-                
-                {/* Button */}
+
+              {/* Features */}
+              <ul className="px-10 max-w-2xl mx-auto space-y-3 mb-8">
+                {[
+                  'Full event access',
+                  'All meals & refreshments',
+                  'Event materials',
+                  'Certificate of participation',
+                ].map((item, idx) => (
+                  <li key={idx} className="flex items-center">
+                    <span className="mr-3 text-blue-600 text-lg leading-none">✓</span>
+                    <span className="text-gray-800">{item}</span>
+                  </li>
+                ))}
+              </ul>
+
+              {/* CTA */}
+              <div className="px-10 pb-10">
                 <a
                   href="https://forms.gle/dLcbtygScXXdhgb69"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white text-center py-4 px-6 rounded-xl font-bold text-lg hover:from-blue-700 hover:to-purple-700 transition-colors"
+                  className="block w-full mx-auto bg-gradient-to-r from-blue-600 to-blue-400 text-white text-center py-4 px-6 rounded-xl font-bold text-lg hover:shadow-xl transition-all"
                 >
-                  Register Now - Regular
+                  Register Now
                 </a>
               </div>
             </div>

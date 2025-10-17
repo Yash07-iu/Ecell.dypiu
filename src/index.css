@@ -416,6 +416,7 @@ wind-like Utility Classes */
 
 /* Backgrounds */
 .bg-white { background-color: #ffffff; }
+.bg-black { background-color: #000000; }
 .bg-gray-50 { background-color: #F8FAFC; }
 .bg-gray-100 { background-color: #F1F5F9; }
 .bg-gray-800 { background-color: #1E293B; }
