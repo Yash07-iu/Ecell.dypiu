@@ -107,9 +107,24 @@ const Blogs = () => {
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto font-body">Subscribe to our newsletter and never miss insights, event updates, and opportunities from the entrepreneurial world.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <JoinInfoPopover>
-                <a href="https://forms.gle/Jg2szi9CoK6sNbE97" target="_blank" rel="noopener noreferrer" aria-label="Join Our Community" className="bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-100 transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center font-space"><Users className="w-5 h-5 mr-2" />Join Our Community</a>
+                <a
+                  href="https://forms.gle/Jg2szi9CoK6sNbE97"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Join Our Community"
+                  className="bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-100 transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center font-space"
+                >
+                  <Users className="w-5 h-5 mr-2" />
+                  Join Our Community
+                </a>
               </JoinInfoPopover>
-              <Link to="/events" className="bg-white/10 backdrop-blur-lg border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-900 transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center font-space"><Calendar className="w-5 h-5 mr-2" />Explore Events</Link>
+              <Link
+                to="/events"
+                className="bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-100 transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center font-space"
+              >
+                <Calendar className="w-5 h-5 mr-2" />
+                Explore Events
+              </Link>
             </div>
           </motion.div>
         </div>

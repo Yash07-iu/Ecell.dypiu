@@ -6,7 +6,7 @@ const Sponsors = () => {
   const sponsors = [
     {
       name: 'Wet N Joy',
-      logo: 'https://www.lonavala.wetnjoy.in/wp-content/uploads/2024/09/WetnJoy-Water-Park-and-Amusement-Park-Logo.png',
+      logo: '/wetnjoy-logo.png',
       website: 'https://www.lonavala.wetnjoy.in/'
     },
     {
@@ -49,11 +49,11 @@ const Sponsors = () => {
                 rel="noopener noreferrer"
                 className="block"
               >
-                <div className="w-64 h-32 flex items-center justify-center">
+                <div className="w-64 h-32 flex items-center justify-center rounded-lg border border-gray-200 bg-white overflow-hidden p-2">
                   <img
                     src={sponsor.logo}
                     alt={sponsor.name}
-                    className="max-w-full max-h-full object-contain"
+                    className="w-full h-full object-contain"
                     onError={(e) => {
                       e.target.style.display = 'none';
                       e.target.nextSibling.style.display = 'flex';
