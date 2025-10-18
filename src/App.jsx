@@ -6,12 +6,16 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Events from './pages/Events';
 import Team from './pages/Team';
-import Gallery from './pages/Gallery';
+import Blogs from './pages/Blogs';
 import Contact from './pages/Contact';
+import Sponsors from './pages/Sponsors';
 import Inceptio from './pages/Inceptio';
 import Elevate from './pages/Elevate';
 import SIH from './pages/SIH';
 import FinBiz from './pages/FinBiz';
+import BlogDetail1 from './pages/BlogDetail1';
+import BlogDetail2 from './pages/BlogDetail2';
+import BlogDetail3 from './pages/BlogDetail3';
 import './App.css';
 
 function App() {
@@ -24,13 +28,17 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/sponsors" element={<Sponsors />} />
             <Route path="/events" element={<Events />} />
             <Route path="/events/inceptio" element={<Inceptio />} />
             <Route path="/events/elevate" element={<Elevate />} />
             <Route path="/events/sih" element={<SIH />} />
             <Route path="/events/finbiz" element={<FinBiz />} />
             <Route path="/team" element={<Team />} />
-            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blogs/where-ideas-meet-impact" element={<BlogDetail1 />} />
+            <Route path="/blogs/ceo-pune-meetup" element={<BlogDetail2 />} />
+            <Route path="/blogs/entrepreneurship-awareness-drive" element={<BlogDetail3 />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
